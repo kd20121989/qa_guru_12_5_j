@@ -1,0 +1,20 @@
+Title: Searching in Yandex
+Priority: blocker!
+Test Data: [
+[Selenide, is an open source library for test]
+[JUnit, Support JUnit]
+]
+
+
+Title: Searching in Yandex by word "Selenide"
+
+
+Preconditions:
+Page "ya.ru" opened in web browser
+
+Steps to Reproduce:
+1. Enter word [Test data]
+2. Press button "Найти"
+
+Expected Result:
+- Page with results opened, it has item with text [Test data]
